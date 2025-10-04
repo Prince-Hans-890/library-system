@@ -1,0 +1,6 @@
+/* Base app styles */
+.hero-unit{background:#f7f9fc;border-radius:8px}
+.btn-large{padding:12px 18px;font-size:16px}
+.navbar .nav > li > a{transition:color .2s ease}
+.navbar .nav > li > a:hover{color:#fff}
+.spinner{display:none}

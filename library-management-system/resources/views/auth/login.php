@@ -12,7 +12,7 @@
         <input type="checkbox" name="remember"> Remember me
       </label>
       <div class="captcha">
-        <img src="/public/images/captcha-placeholder.png" alt="captcha" style="height:40px;background:#eee">
+        <span class="captcha-box">AB12C</span>
         <input type="text" name="captcha" placeholder="Enter text" class="span3" required>
       </div>
       <button type="submit" class="btn btn-primary">Login</button>

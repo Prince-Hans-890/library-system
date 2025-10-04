@@ -23,7 +23,7 @@
       <label>Upload ID Document</label>
       <input type="file" name="document" class="span5" accept="image/*,application/pdf" required>
       <div class="captcha">
-        <img src="/public/images/captcha-placeholder.png" alt="captcha" style="height:40px;background:#eee">
+        <span class="captcha-box">AB12C</span>
         <input type="text" name="captcha" placeholder="Enter text" class="span3" required>
       </div>
     </div>

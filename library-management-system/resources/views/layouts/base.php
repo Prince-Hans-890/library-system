@@ -6,11 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= htmlspecialchars($title ?? 'Library') ?></title>
-  <link rel="stylesheet" href="<?= asset('public/css/bootstrap-2.2.2.min.css') ?>">
-  <link rel="stylesheet" href="<?= asset('public/css/app.css') ?>">
-  <script src="<?= asset('public/js/jquery-1.9.1.min.js') ?>" defer></script>
-  <script src="<?= asset('public/js/underscore-1.13.6.min.js') ?>" defer></script>
-  <script src="<?= asset('public/js/app.js') ?>" defer></script>
+  <link rel="stylesheet" href="<?= asset('css/bootstrap-2.2.2.min.css') ?>">
+  <link rel="stylesheet" href="<?= asset('css/app.css') ?>">
+  <script src="<?= asset('js/jquery-1.9.1.min.js') ?>" defer></script>
+  <script src="<?= asset('js/underscore-1.13.6.min.js') ?>" defer></script>
+  <script src="<?= asset('js/bootstrap-2.2.2.min.js') ?>" defer></script>
+  <script src="<?= asset('js/app.js') ?>" defer></script>
   <style>
     body{padding-top:60px}
     .navbar-inverse .brand{font-weight:600}
